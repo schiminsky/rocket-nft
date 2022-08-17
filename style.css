@@ -196,12 +196,12 @@ main .main-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 82px;
+  margin-left: 65px;
 }
 
 main .main-2 .photos {
   display: flex;
-  width: 1277px;
+  width: 1230px;
   justify-content: space-around;
   margin-bottom: 60px;
 }
@@ -214,9 +214,45 @@ main .main-2 .photos {
 
 main .main-3 {
   display: flex;
+  margin-left: 100px;
+  margin-top: 70px;
 }
 
+main .main-3 .left-container {
+  display: flex;
+  width: 199px;
+  flex-direction: column;
+  border-right: 2px solid white;  
+}
 
+main .main-3 .left-container .div-1 h3 {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+main .main-3 .left-container .div-1 p {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5A5757;
+  margin-bottom: 70px;
+}
+
+main .main-3 .right-container {
+  display: flex;
+  width: 1158px;
+  flex-direction: column;
+}
+
+div .right-container .main-loren {
+  display: flex;
+}
 
 
 
