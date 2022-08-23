@@ -9,6 +9,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 1440px;
 }
@@ -295,6 +296,13 @@ main .main-4 {
   margin-left: 87px;
 }
 
+main .main-4 .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1265px;
+}
+
 .main-4 .main-container .week h2 {
   font-style: normal;
   font-weight: 700;
@@ -307,20 +315,28 @@ main .main-4 {
   color: #FF5B50;
 }
 
-.main-4 .main-container .left-container {
+.main-4 .main-container .week-p {
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.main-4 .main-container .week-container {
   display: flex;
   flex-direction: column;
 }
 
-.main-4 .main-container .left-container .astronaut-1{
+.main-4 .main-container .week-container .astronaut {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 376.9px;
+  justify-content: space-evenly;
+  width: 350px;
   height: 337px;
+  margin-bottom: 50px;
 }
 
-.main-4 .main-container .left-container .astronaut-1 h2{
+.main-4 .main-container .weekt-container .astronaut h2{
   position: relative;
   font-style: normal;
   font-weight: 500;
@@ -328,6 +344,181 @@ main .main-4 {
   line-height: 37px;
   margin-bottom: 44px;
 }
+
+.main-4 .main-container .week-container .astronaut .week-p img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.main-4 .main-container .week-container .astronaut .week-author {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.main-4 .main-container .week-container .astronaut .week-author h3 {
+  color: #5A5757;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main-4 .main-container .week-container .astronaut .week-author p {
+  display: flex;
+  margin-right: 15px;
+  color: #FF5B50;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+main .main-5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+main .main-5 .main-container {
+  display: flex;
+  width: 1287px;
+  height: 682.34px;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .main-5 .main-container .best-artists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .main-5 .main-container .best-artists-para{
+  display: flex;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+
+main .main-5 .main-container .best-artists-para p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+main .main-5 .main-container .best-artists-para span{
+  color: #FF5B50;
+}
+
+main .main-5 .main-container .best-artists .best-artists-img {
+  width: 350px;
+  height: 150px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525; 
+  margin-bottom: 111px;
+}
+
+main .main-5 .main-container .best-artists .best-artists-img .artists {
+  display: flex;
+  background-color: transparent; 
+}
+
+main .main-5 .main-container .best-artists .best-artists-img .artists img{
+  width: 100px;
+  height: 100px; 
+  background-color: transparent;
+  margin-right: 40px;
+}
+
+main .main-5 .main-container .best-artists .best-artists-img .artists .info {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .main-5 .main-container .best-artists .best-artists-img .artists .info p{
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+main .main-5 .main-container .best-artists .best-artists-img .artists .info span{
+  background-color: transparent;
+  color: #FF5B50;
+}
+
+main .main-5 .main-container .see-all {
+  display: flex;
+  justify-content: center;
+  width: 260.34px;
+  margin-bottom: 150px;
+}
+
+main .main-5 .main-container .see-all p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 13px;
+}
+
+footer {
+  display: flex;
+  margin-top: 180px;
+  width: 1444px;
+  height: 709px;
+  background-color: #5A5757;
+}
+
+footer .main-footer {
+  background-color: #5A5757;
+  width: 1444px;
+}
+
+footer .main-footer .end{
+  background-color: #5A5757;
+  height: 222px;
+  display: flex;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .main-footer .end p{
+  background-color: #5A5757;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+footer .main-footer .end span{
+  background-color: #5A5757;
+  color: #FF5B50;
+}
+
+footer .main-footer .end button{
+  width: 80px;
+  height: 80px;
+  background-color: #FF5B50;
+  border: 0px;
+  background-image: url(/assets/arrow-black.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
 
 
 
