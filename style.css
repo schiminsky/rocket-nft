@@ -214,6 +214,7 @@ main .main-2 .photos {
 
 main .main-3 {
   display: flex;
+  align-items: center;
   margin-left: 100px;
   margin-top: 70px;
 }
@@ -252,7 +253,84 @@ main .main-3 .right-container {
 
 div .right-container .main-loren {
   display: flex;
+  margin-bottom: 71px;
 }
+
+div .main-loren {
+  width: 952px;
+  height: 214px;
+  justify-content: space-between;
+}
+
+div .main-loren .loren {
+  width: 435px;
+  height: 114px;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+div .main-loren .loren h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 63px;
+  width: 332px;
+}
+
+div .main-loren .loren span {
+  color: #FF5B50;
+}
+
+div .main-loren .loren p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+main .main-4 {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 87px;
+}
+
+.main-4 .main-container .week h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 158px;
+}
+
+.main-4 .main-container .week span {
+  color: #FF5B50;
+}
+
+.main-4 .main-container .left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-4 .main-container .left-container .astronaut-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 376.9px;
+  height: 337px;
+}
+
+.main-4 .main-container .left-container .astronaut-1 h2{
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 44px;
+}
+
+
+
 
 
 
