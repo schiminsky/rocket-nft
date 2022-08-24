@@ -585,5 +585,24 @@ footer .main-footer .footer-container .newsletter-container button{
 footer .main-footer .footer-container .links-container {
   display: flex;
   position: absolute;
-  right: 490px;
+  left: 520px;
+  bottom: -35px;
+}
+
+footer .main-footer .footer-container .links-container .links{
+  display: flex;
+  width: 895px;
+  background-color: #252525;
+  justify-content: space-evenly;
+}
+
+footer .main-footer .footer-container .links-container .links ul {
+  list-style-type: none;
+  background-color: #252525;
+}
+
+footer .main-footer .footer-container .links-container .links ul li{
+  list-style-type: none;
+  background-color: #252525;
+  margin-bottom: 20px;
 }
