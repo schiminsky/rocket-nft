@@ -474,27 +474,30 @@ footer {
   margin-top: 180px;
   width: 1444px;
   height: 709px;
-  background-color: #5A5757;
+  background-color: #252525;
 }
 
 footer .main-footer {
-  background-color: #5A5757;
+  background-color: #252525;
   width: 1444px;
 }
 
+footer .footer-container {
+  position: relative;
+}
+
 footer .main-footer .end{
-  background-color: #5A5757;
+  background-color: #252525;
   height: 222px;
   display: flex;
   padding-right: 80px;
   padding-left: 80px;
-  margin-bottom: 60px;
   justify-content: space-between;
   align-items: center;
 }
 
 footer .main-footer .end p{
-  background-color: #5A5757;
+  background-color: #252525;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -502,7 +505,7 @@ footer .main-footer .end p{
 }
 
 footer .main-footer .end span{
-  background-color: #5A5757;
+  background-color: #252525;
   color: #FF5B50;
 }
 
@@ -516,12 +519,71 @@ footer .main-footer .end button{
   background-position: center;
 }
 
+footer .main-footer .footer-container .newsletter-container {
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
 
+footer .main-footer .footer-container .newsletter-container p{
+  background-color: #252525;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  width: 330px;
+  padding-bottom: 25px;
+}
 
+footer .main-footer .footer-container .newsletter-container span{
+  background-color: #252525;
+  color: #FF5B50;
+}
 
+footer .main-footer .footer-container .newsletter-container span{
+  background-color: #252525;
+  color: #FF5B50;
+}
 
+footer .main-footer .footer-container .newsletter-container form{
+  display: flex;
+  background-color: #252525
+}
 
+footer .main-footer .footer-container .newsletter-container input{
+  display: flex;
+  background-color: #000;
+  width: 300px;
+  height: 66px;
+}
 
+footer .main-footer .footer-container .newsletter-container input::placeholder{
+  text-align: left;
+  text-indent: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5A5757;
+}
 
+footer .main-footer .footer-container .newsletter-container button{
+  width: 122px;
+  height: 66px;
+  left: 363px;
+  top: 4122px;
+  background: #FFFFFF;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+}
 
-
+footer .main-footer .footer-container .links-container {
+  display: flex;
+  position: absolute;
+  right: 490px;
+}
