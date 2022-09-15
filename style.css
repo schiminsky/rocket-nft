@@ -586,7 +586,7 @@ footer .main-footer .footer-container .links-container {
   display: flex;
   position: absolute;
   left: 520px;
-  bottom: -35px;
+  bottom: -83px;
 }
 
 footer .main-footer .footer-container .links-container .links{
@@ -604,5 +604,5 @@ footer .main-footer .footer-container .links-container .links ul {
 footer .main-footer .footer-container .links-container .links ul li{
   list-style-type: none;
   background-color: #252525;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
